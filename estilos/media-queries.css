@@ -41,9 +41,41 @@
         display: flex;
         padding-left:10px ;
     }
+    form> div.campo {
+        width: 66%;
+        height: 40px;
+        position: relative;
+        left: 65%;
+        top: 33%;
+        transform: translate(-51%, 6%);
+        border-radius: 5px;
+        margin: 5px 0px;
+    }
+    form>input[type=submit] {
+        width: 64%;
+        height: 40px;
+        position: absolute;
+        left: 64%;
+        top: 41%;
+        transform: translate(-50%, -50%);
+    }
+    form> a.botao{
+        width: 64%;
+        height: 40px;
+        position: absolute;
+        left: 64%;
+        top: 49%;
+        transform: translate(-50%, -50%);
+    }
+    .material-icons{
+        margin-left: -178px;
+    }
+    a>.material-icons{
+        margin-left: 0px;
+    }
 
-    
-      
+   
+        
 }
 
 @media screen and (min-width:992px ) {
