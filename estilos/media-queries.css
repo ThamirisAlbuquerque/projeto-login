@@ -13,6 +13,7 @@
 */
 
 @media screen and (min-width: 768px) and (max-width:992px ) {
+    /*Configuração para TABLET*/
     
     body{
         background-image: linear-gradient(to top, #58731F, #395934) ;
@@ -20,6 +21,7 @@
 
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -56,7 +58,7 @@
         height: 40px;
         position: absolute;
         left: 64%;
-        top: 41%;
+        top: 73%;
         transform: translate(-50%, -50%);
     }
     form> a.botao{
@@ -64,7 +66,7 @@
         height: 40px;
         position: absolute;
         left: 64%;
-        top: 49%;
+        top: 88%;
         transform: translate(-50%, -50%);
     }
     .material-icons{
@@ -74,11 +76,19 @@
         margin-left: 0px;
     }
 
+    div.campo>input{
+    width: 373px;
+    height: 100%;
+    border-radius: 6px;
+    transform: translate(2%, -26%);
+    }
+    
    
         
 }
 
 @media screen and (min-width:992px ) {
+    /*Configuração para TELAS MAIORES*/
 
     body{
         background-image: linear-gradient(to top, #58731F, #395934) ;
@@ -86,6 +96,7 @@
 
     section#login {
         width: 950px;
+        height: 338px;
     }
 
     section#login > div#imagem {
@@ -110,5 +121,11 @@
         display: flex;
         padding-left:10px ;
     }
+    div.campo>input{
+        width: 410px;
+        border-radius: 7px;
+        transform: translateY(-10px);
+    }
+    
            
 }

@@ -28,8 +28,7 @@ main{
 section#login {
     position: absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    left:50%;    
     overflow: hidden;
 
     background-color: white;
@@ -40,6 +39,7 @@ section#login {
 
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%,-50%);
 }
 
 section#login > div#imagem {
@@ -78,7 +78,6 @@ div.campo > label{
 } 
 div.campo> i{
     color: white;
-    background-color: black;
     font-size: 2em;
     width: 40px;
     padding: 5px;
@@ -87,12 +86,15 @@ div.campo> i{
 div.campo>input{
     background-color: #8ca556;
     font-size: 1em;
-    width:calc(100% -42px);
+    width:calc(100% -44px);
     height: 100%;
     border-radius: 8px;
-    padding: 4px;
-    
+    padding: 4px;   
+    transform: translate(22%, -105%);
+}
 
+div.campo>input:focus-within{
+    background-color: white;
 }
 
 input {
